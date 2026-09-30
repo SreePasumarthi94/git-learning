@@ -22,4 +22,40 @@ git status to chekc the status o f the file.
 
 at this point if i check the git status it will give me the file under untracked files as we didnt commit
 
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GettingStartedWithGIT.txt
+
+
+next "git add GettingStartWithGIT.txt"
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   GettingStartedWithGIT.txt
+now chnages are to be committed.
+
+to commit first commit configure username and email
+
+git config --global user.name "SreePasumarthi94"
+git config --global user.email "bhavanipasumarthi94@gmail.com"
+
+then commit the chnages
+git commit -m "First commit"
+
+to view history 
+git log
+
+to view just oneline history 
+git log --online
+
+
 
