@@ -57,5 +57,15 @@ git log
 to view just oneline history 
 git log --online
 
+now change the file with added extra information
+then wnated to see the diff
+
+git diff
+
+then commit again 
+git add .
+git commit -m "message"
 
 
+now the git is clear with no untracked files,with a clean tree.
+---------------------------------------------------------------
